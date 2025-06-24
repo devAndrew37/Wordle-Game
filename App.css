@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background: linear-gradient(135deg, #d8d8d5, #568cdd);
+  }
+  
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: height 5s ease-in-out;
+    overflow-y: hidden;
+  }
+
+  button {
+    background-color: #568cdd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  button:hover {
+    background-color: #4a7bbf;
+  }
+
+  h1 {
+    color: #333;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+    margin-top: 10px;
+  }
+
+  #lives {
+    position:relative;
+    float:right;
+    width: 40px;
+    right: 400px;
+    margin-top: 10px;
+   }
+   
+   #numberLives {
+    position:relative;
+    float:right;
+    font-weight:bold;
+    right: 343px;
+    margin-top: 25px;
+   }
+
+   footer {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    background-color: #568cdd;
+    text-align: right;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+   }
+
+   a {
+    color: white;
+    text-decoration: none;
+   }
+
+   #logo {
+    position: absolute;
+    top: 260px;
+   }
